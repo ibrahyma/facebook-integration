@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="images/icone_fb.png" rel="icon" type="image/png"/>
+        <title>Facebook - Connexion ou inscription</title>
+    </head>
+
+    <body>
+        <header>
+            <div id="logo_fb">
+                <a href="index.html">
+                    <img src="images/facebook.png" alt="Facebook"/>
+                </a>
+            </div>
+
+            <div id="form_connexion">
+                <form action="#" method="POST">
+                    <div class="champ_connexion">
+                        <label>Adresse e-mail ou mobile</label>
+                        <input name="coordonnees" type="text"/>
+                    </div>
+                    <div class="champ_connexion">
+                        <label>Mot de passe</label>
+                        <input name="mdp" type="password"/>
+                        <a href="#">Informations de compte oubliées ?</a>
+                    </div>
+                    <div id="btn_connexion">
+                        <input name="connexion" type="submit" value="Connexion"/>
+                    </div>
+                </form>
+            </div>
+        </header>
+
+        <section>
+            <div id="pub">
+                <strong>Avec Facebook, partagez et restez en contact avec votre entourage.</strong>
+                <img src="images/liaison_monde.png" alt="Liaison contact monde"/>
+            </div>
+
+            <aside>
+                <h2>Inscription</h2>
+
+                <mark>C'est rapide et facile.</mark>
+                
+                <div id="form_inscription">
+                    <form action="#" method="POST">
+                        <div id="coordonnees">
+                            <div>
+                                <input name="prenom" placeholder="Prénom" type="text"/>
+                                <input name="nom" placeholder="Nom de famille" type="text"/>
+                            </div>
+                            <div>
+                                <input name="coordonnees" placeholder="Numéro de mobile ou e-mail" type="text"/>
+                            </div>
+                            <div>
+                                <input name="mdp" placeholder="Nouveau mot de passe" type="password"/>
+                            </div>
+                        </div>
+                        <div id="date_naissance">
+                            <h4>Date de naissance</h4>
+                            <div>
+                                <select name="jour">
+                                    <option value="" selected>Jour</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                                <select name="mois">
+                                    <option value="" selected>Mois</option>
+                                    <option value="01">jan</option>
+                                    <option value="02">fév</option>
+                                    <option value="03">mar</option>
+                                    <option value="04">avr</option>
+                                    <option value="05">mai</option>
+                                    <option value="06">jun</option>
+                                    <option value="07">juil</option>
+                                    <option value="08">aoû</option>
+                                    <option value="09">sep</option>
+                                    <option value="10">oct</option>
+                                    <option value="11">nov</option>
+                                    <option value="12">dec</option>
+                                </select>
+                                <select name="annee">
+                                    <option value="" selected>Année</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+                                </select>
+                                <img src="images/bouton_aide.png" alt="Aide"/>
+                            </div>
+                        </div>
+
+                        <div id="genre">
+                            <h4>Genre</h4>
+                            <div>
+                                <div>
+                                    <input name="genre" type="radio" value="femme"/>
+                                    <label>Femme</label>
+                                </div>
+                                <div>
+                                    <input name="genre" type="radio" value="homme"/>
+                                    <label>Homme</label>
+                                </div>
+                                <div>
+                                    <input name="genre" type="radio" value="perso"/>
+                                    <label>Personnalisé</label>
+                                </div>
+                                <div>
+                                    <img src="images/bouton_aide.png" alt="Aide"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="politique">
+                            <p>
+                                En cliquant sur Inscription, vous acceptez nos <a href="#">Conditions générales.</a>
+                                Découvrez comment nous recueillons, utilisons et partageons vos données en lisant notre
+                                <a href="#">Politique d’utilisation des données</a> et comment nous utilisons les
+                                cookies et autres technologies similaires en consultant notre 
+                                <a href="#">Politique d’utilisation des cookies.</a> Vous recevrez peut-être des notifications
+                                par texto de notre part et vous pouvez à tout moment vous désabonner.
+                            </p>
+                        </div>
+
+                        <div id="btn_inscription">
+                            <input name="inscription" type="submit" value="Inscription"/>
+                        </div>
+
+                        <div id="creer_page">
+                            <p>
+                                <a href="#">Créer une Page</a> pour une célébrité, un groupe ou une entreprise.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <div id="langues">
+                <ul>
+                    <li>Français (France)</li>
+                    <li><a href="#">English (US)</a></li>
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Türkçe</a></li>
+                    <li><a href="#">Portugês (Portugal)</a></li>
+                </ul>
+            </div>
+
+            <div id="liens_annexes">
+                <ul>
+                    <li><a href="#">Inscription</a></li>
+                    <li><a href="#">Connexion</a></li>
+                    <li><a href="#">Messenger</a></li>
+                    <li><a href="#">Facebook Lite</a></li>
+                    <li><a href="#">Watch</a></li>
+                </ul>
+            </div>
+
+            <div id="droits">
+                Facebook &copy; 2020
+            </div>
+        </footer>
+    </body>
+</html>

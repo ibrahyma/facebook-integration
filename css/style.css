@@ -1,0 +1,319 @@
+a
+{
+    color: initial;
+    text-decoration: none;
+}
+
+aside
+{
+    margin-left: 50px;
+}
+
+aside a
+{
+    color: #385898;
+}
+
+aside p
+{
+    color: #777777;
+}
+
+aside h2
+{
+    color: #333333;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+aside h4
+{
+    color: #90949C;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+aside mark
+{
+    background: none;
+    color: #1D2129;
+    font-size: 19px;
+}
+
+body
+{
+    background-color: #FFF;
+    color: #1C1E21;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+footer
+{
+   color: #737373;
+   font-size: 12px;
+   padding-left: 185px;
+   padding-bottom: 20px;
+}
+
+footer a
+{
+    color: #385898;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: unset;
+}
+
+header
+{
+    background: linear-gradient(#4E69A2, #3B5998 40%);
+    background-color: #3B5998;
+    border-bottom: 1px solid #133783;
+    color: white;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+header a
+{
+    color: #9CB4D8;
+}
+
+input
+{
+    outline: none;
+}
+
+input[name="connexion"]
+{
+    background-color: #4267B2;
+    border: 1px solid #29487D;
+    color: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 6px;
+    position: relative;
+    top: 3px;
+    right: 3px;
+}
+
+input[name="prenom"]
+{
+    margin-right: 10px;
+}
+
+section
+{
+    background: linear-gradient(white, #D3D8E8);
+    background-image: url('../images/wallpaper_section.png') fixed no-repeat;
+    display: flex;
+    padding: 40px 250px 20px 185px;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    padding-left: unset;
+}
+
+.champ_connexion
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.champ_connexion input
+{
+    border: 1px solid #1D2A5B;
+    font-size: 12px;
+    padding: 3.5px 3px;
+    width: 140px;
+}
+
+.champ_connexion > *
+{
+    margin-top: 5px;
+}
+
+#btn_connexion
+{
+    align-self: center;
+    margin-left: 15px;
+}
+
+#btn_inscription input
+{
+    background: linear-gradient(#67AE55, #578843);
+    border: 1px solid;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+}
+
+#coordonnees
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#coordonnees input
+{
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#coordonnees input::placeholder
+{
+    color: #90949C;
+}
+
+#coordonnees > div:first-child
+{
+    display: flex;
+}
+
+#coordonnees > div:first-child input
+{
+    width: 195px;
+}
+
+#coordonnees > div:nth-child(2) input,
+#coordonnees > div:last-child input
+{
+    width: 95%;
+}
+
+#creer_page
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#date_naissance
+{
+    margin-bottom: 10px;
+}
+
+#date_naissance select
+{
+    border: 1px solid #CCD0D5;
+    font-size: 13px;
+    padding: 5px;
+}
+
+#date_naissance select:nth-child(2),
+#date_naissance select:nth-child(3)
+{
+    margin-left: -3px;
+}
+
+#droits
+{
+    font-size: 11px;
+}
+
+#form_connexion
+{
+    left: 10px;
+    position: relative;
+}
+
+#form_connexion > form
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#form_connexion div:first-child
+{
+    padding-right: 13px;
+}
+
+#form_connexion div:nth-child(2)
+{
+    width: max-content;
+    padding-right: 0px;
+}
+
+#form_inscription
+{
+    margin-top: 30px;
+}
+
+#form_inscription input
+{
+    border: 1px solid #BDC7D8;
+}
+
+#genre > div
+{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    width: 85%;
+}
+
+#langues
+{
+    border-bottom: 1px solid #DDDFE2;
+}
+
+#langues li
+{
+    padding-right: 10px;
+}
+
+#liens_annexes
+{
+    margin-bottom: 20px;
+}
+
+#liens_annexes li
+{
+    padding-right: 20px;
+}
+
+#logo_fb img
+{
+    position: relative;
+    bottom: 9px;
+    left: 3px;
+    width: 170px;
+}
+
+#politique
+{
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+#pub
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#pub strong
+{
+    color: #0E385F;
+    font-size: 20px;
+    line-height: 30px;
+}
