@@ -5,4 +5,4 @@ Il s'agit de l'intégration de la page d'accueil de Facebook. La page est factic
 
 Démo : https://ibrahyma.github.io/facebook-integration/
 
-Version inspirée : https://web.archive.org/web/20200731234643/https://fr-fr.facebook.com/
+Page clonée : https://web.archive.org/web/20200731234643/https://fr-fr.facebook.com/
